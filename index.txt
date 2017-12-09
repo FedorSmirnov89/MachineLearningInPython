@@ -1,5 +1,0 @@
-
-Ch 02:
-
-- Python code converntions
-- Perceptron functionality
