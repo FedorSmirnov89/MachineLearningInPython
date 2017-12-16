@@ -43,8 +43,8 @@ class Perceptron(object):
                 update = self.eta * (target - self.predict(xi))
                 self.w_[1:] += update * xi
                 self.w_[0] += update
-                errors += int(update != .0)
-        self.errors_.append(errors)
+                errors += int(update != 0.0)
+            self.errors_.append(errors)
         return self
 
     def net_input(self, X):
