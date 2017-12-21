@@ -11,3 +11,4 @@ Ch02:
 - Basic pandas methods
 - Scatter plot usage
 - Plotting the decision boundary
+- Adaline Neuron
